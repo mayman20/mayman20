@@ -12,15 +12,15 @@ I build software that is meant to be used: internal tools, customer-facing apps,
 
 ## Featured Repositories
 
-### [captain-mikes-charters](https://github.com/mayman20/captain-mikes-charters)
-Booking platform for a charter fishing business with a public reservation flow, admin dashboard, Supabase backend, and email automation.
-
-**Highlights:** React, TypeScript, Supabase, auth, access control, operational workflows
-
 ### [spotipy_scripts](https://github.com/mayman20/spotipy_scripts)
 Spotify automation workspace with playlist tooling, a FastAPI backend, and a web UI for running authenticated workflows.
 
 **Highlights:** API integrations, FastAPI, React, automation, OAuth flows
+
+### [captain-mikes-charters](https://github.com/mayman20/captain-mikes-charters)
+Booking platform for a charter fishing business with a public reservation flow, admin dashboard, Supabase backend, and email automation.
+
+**Highlights:** React, TypeScript, Supabase, auth, access control, operational workflows
 
 ### [Delivery-Tracker](https://github.com/mayman20/Delivery-Tracker)
 Delivery operations app with role-based login, Firebase integration, and lightweight status tracking for drivers and overseers.
@@ -37,13 +37,11 @@ My most active work right now is in a private trading and research environment t
 
 I have not published the strongest parts of that work yet, but it represents the direction of my current engineering effort.
 
-## Where To Start
+## Start Here
 
-If you are reviewing my GitHub for hiring:
-
-1. Start with [`captain-mikes-charters`](https://github.com/mayman20/captain-mikes-charters) for the clearest full-stack product example
-2. Then look at [`spotipy_scripts`](https://github.com/mayman20/spotipy_scripts) for automation and backend/frontend integration
-3. Use [`Delivery-Tracker`](https://github.com/mayman20/Delivery-Tracker) as an earlier example of shipping a small workflow tool
+1. [`spotipy_scripts`](https://github.com/mayman20/spotipy_scripts)
+2. [`captain-mikes-charters`](https://github.com/mayman20/captain-mikes-charters)
+3. [`Delivery-Tracker`](https://github.com/mayman20/Delivery-Tracker)
 
 ## Interests
 
