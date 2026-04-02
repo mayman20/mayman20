@@ -1,63 +1,54 @@
 # Joseph Mayman
 
-I build practical software across web apps, automation, and systematic trading research.
+Software engineer focused on product development, automation, and market-driven systems.
 
-- Booking and operations software for real businesses
-- Spotify automation tools with a web UI and backend services
-- Data-driven trading systems, backtesting pipelines, and paper-trading infrastructure
+I build software that is meant to be used: internal tools, customer-facing apps, API integrations, and data workflows. Most of my recent work sits at the intersection of backend systems, operational tooling, and quantitative research.
 
-## Featured Projects
+## What I Work On
 
-### [Captain Mike's Charters](https://github.com/mayman20/captain-mikes-charters)
-Production-oriented charter booking platform built with React, TypeScript, Tailwind, and Supabase.
+- Full-stack apps for real business workflows
+- Automation tools with frontend and backend integration
+- Data pipelines, research tooling, and paper-trading systems
 
-- Public booking flow with availability controls
-- Owner admin dashboard for bookings, cancellations, blocked dates, and CSV export
-- Email notification flow through a Supabase Edge Function
+## Featured Repositories
+
+### [captain-mikes-charters](https://github.com/mayman20/captain-mikes-charters)
+Booking platform for a charter fishing business with a public reservation flow, admin dashboard, Supabase backend, and email automation.
+
+**Highlights:** React, TypeScript, Supabase, auth, access control, operational workflows
 
 ### [spotipy_scripts](https://github.com/mayman20/spotipy_scripts)
-Spotify automation workspace that combines playlist tooling, a frontend, and a backend API.
+Spotify automation workspace with playlist tooling, a FastAPI backend, and a web UI for running authenticated workflows.
 
-- Playlist automation and sync scripts using Spotipy
-- FastAPI backend for auth and execution
-- Frontend for running and managing Spotify workflows
+**Highlights:** API integrations, FastAPI, React, automation, OAuth flows
 
 ### [Delivery-Tracker](https://github.com/mayman20/Delivery-Tracker)
-Lightweight delivery tracking app deployed with GitHub Pages.
+Delivery operations app with role-based login, Firebase integration, and lightweight status tracking for drivers and overseers.
 
-- Static frontend with no backend requirement
-- Simple operator-friendly UI
-- Good example of straightforward product shipping
+**Highlights:** JavaScript, Firebase Auth, Realtime Database, simple workflow design
 
-## Current Work
+## Current Engineering Focus
 
-I am currently developing a private algorithmic trading workbench that includes:
+My most active work right now is in a private trading and research environment that includes:
 
-- NQ futures backtesting and IBKR paper trading infrastructure
-- News and sentiment pipelines for stock signal research
-- Crypto funding-fade and portfolio rebalancing systems
+- Futures backtesting and IBKR paper-trading infrastructure
+- News and sentiment pipelines for signal research
+- Crypto and portfolio automation systems
 
-This work is not fully published yet, but it is the area where I am doing the most active engineering right now.
+I have not published the strongest parts of that work yet, but it represents the direction of my current engineering effort.
 
-## Repo Guide
+## Where To Start
 
-If you are reviewing my GitHub for hiring purposes, start here:
+If you are reviewing my GitHub for hiring:
 
-1. `captain-mikes-charters` for full-stack product work
-2. `spotipy_scripts` for automation plus backend/frontend integration
-3. `Delivery-Tracker` for an earlier shipped web project
+1. Start with [`captain-mikes-charters`](https://github.com/mayman20/captain-mikes-charters) for the clearest full-stack product example
+2. Then look at [`spotipy_scripts`](https://github.com/mayman20/spotipy_scripts) for automation and backend/frontend integration
+3. Use [`Delivery-Tracker`](https://github.com/mayman20/Delivery-Tracker) as an earlier example of shipping a small workflow tool
 
-Other public repos:
+## Interests
 
-- `mayman20.github.io`: earlier personal site
-- `surf-cam.github.io`: small static site experiment
-- `titanic_dataset`: early data project
-
-## Focus
-
-I am most interested in roles where I can work on backend systems, product engineering, automation, data pipelines, or trading/market infrastructure.
+I am especially interested in backend engineering, product engineering, automation, developer tooling, data systems, and market infrastructure.
 
 ## Contact
 
 - GitHub: [mayman20](https://github.com/mayman20)
-
