@@ -1,52 +1,32 @@
-# Joseph Mayman
+# Joe May
 
-Software engineer focused on product development, automation, and market-driven systems.
+CS + Data Science senior at the University of Rhode Island, graduating May 2026. Based in Stone Harbor, NJ.
 
-I build software that is meant to be used: internal tools, customer-facing apps, API integrations, and data workflows. Most of my recent work sits at the intersection of backend systems, operational tooling, and quantitative research.
+## What I build
 
-## What I Work On
+Live data systems. Most of what I work on day-to-day lives in private repos. Short version:
 
-- Full-stack apps for real business workflows
-- Automation tools with frontend and backend integration
-- Data pipelines, research tooling, and paper-trading systems
+**Algorithmic trading platform on GCP.** Pulls real-time market data from multiple feeds, validates it, and trades 24/7. Systemd services, Telegram alerting, runs without intervention. Same architecture drives a Polymarket prediction-market scanner running as a Linux service in Dublin.
 
-## Featured Repositories
+**Browser-automation pipeline on Claude Code.** Playwright + Claude subprocess orchestration with LLM scoring, state machines, daily cap enforcement, and Telegram control. Stress test for agent orchestration under real-world failure modes.
 
-### [spotipy_scripts](https://github.com/mayman20/spotipy_scripts)
-Spotify automation workspace with playlist tooling, a FastAPI backend, and a web UI for running authenticated workflows.
+**SQL pipelines at Long Point Resources (Summer 2025 SWE internship).** Financial data across 5,000+ companies using Python, MySQL, and the Tiingo API. Power BI dashboards for the ops team. Reduced data delivery times around 80% through AI tooling.
 
-**Highlights:** API integrations, FastAPI, React, automation, OAuth flows
+## Stack
+
+Python (pandas, NumPy, FastAPI), SQL (PostgreSQL, MySQL), TypeScript, React, C++, C#, R. GCP, Linux, systemd, Docker, REST APIs. Playwright for browser automation. Firebase and Supabase on the full-stack side.
+
+## Public projects
 
 ### [captain-mikes-charters](https://github.com/mayman20/captain-mikes-charters)
-Booking platform for a charter fishing business with a public reservation flow, admin dashboard, Supabase backend, and email automation.
+React + TypeScript + Vite + Supabase. Booking platform for a working charter fishing business. Real customers, email automation, owner dashboard, double-booking protection, access controls at the database level.
 
-**Highlights:** React, TypeScript, Supabase, auth, access control, operational workflows
+### [spotipy_scripts](https://github.com/mayman20/spotipy_scripts)
+FastAPI + React + PostgreSQL + Spotipy. Spotify automation workspace with OAuth, encrypted token storage in the database, and a web UI for running authenticated playlist workflows.
 
 ### [Delivery-Tracker](https://github.com/mayman20/Delivery-Tracker)
-Delivery operations app with role-based login, Firebase integration, and lightweight status tracking for drivers and overseers.
+JavaScript + Firebase Auth + Realtime Database. Delivery status tracking with role-based dashboards for drivers and overseers. Built for a small operation.
 
-**Highlights:** JavaScript, Firebase Auth, Realtime Database, simple workflow design
+## Reach me
 
-## Current Engineering Focus
-
-My most active work right now is in a private trading and research environment that includes:
-
-- Futures backtesting and IBKR paper-trading infrastructure
-- News and sentiment pipelines for signal research
-- Crypto and portfolio automation systems
-
-I have not published the strongest parts of that work yet, but it represents the direction of my current engineering effort.
-
-## Start Here
-
-1. [`spotipy_scripts`](https://github.com/mayman20/spotipy_scripts)
-2. [`captain-mikes-charters`](https://github.com/mayman20/captain-mikes-charters)
-3. [`Delivery-Tracker`](https://github.com/mayman20/Delivery-Tracker)
-
-## Interests
-
-I am especially interested in backend engineering, product engineering, automation, developer tooling, data systems, and market infrastructure.
-
-## Contact
-
-- GitHub: [mayman20](https://github.com/mayman20)
+jmayman2002@gmail.com  ·  [LinkedIn](https://linkedin.com/in/joe-may-499a40369)  ·  [mayman20.github.io](https://mayman20.github.io)
