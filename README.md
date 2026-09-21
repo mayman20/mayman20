@@ -6,7 +6,7 @@ BS Computer Science, University of Rhode Island (2026), with a minor in Data Sci
 
 Live data systems. Most of what I work on day-to-day lives in private repos. Short version:
 
-**Research and paper-trading infrastructure on GCP.** Ingests real-time market data from multiple feeds, supports offline research using out-of-sample splits, permutation tests, and negative controls, and operates as systemd services with structured logging and Telegram alerting. A public, sanitized mirror of the architecture and validation library is linked below.
+**Research and paper-trading infrastructure.** Work spanning market-data ingestion, out-of-sample splits, permutation tests, negative controls, structured logging, and service monitoring. A public, sanitized mirror of the architecture and validation library is linked below.
 
 **Browser-automation pipeline on Claude Code.** Playwright + Claude subprocess orchestration with LLM scoring, state machines, daily cap enforcement, and Telegram control. Built as a stress test for agent orchestration under real-world failure modes.
 
@@ -25,7 +25,7 @@ React + TypeScript + Vite. Booking site for a working charter fishing business, 
 JavaScript + Firebase Auth + Realtime Database. Delivery status tracking with role-based dashboards for drivers and dispatchers. [Try the no-account interactive demo](https://mayman20.github.io/Delivery-Tracker/demo.html) with simulated drivers and routes.
 
 ### [financial-data-platform](https://github.com/mayman20/financial-data-platform)
-Python. Sanitized mirror of a private research and paper-trading platform: multi-API market data ingestion, a statistical validation library (out-of-sample testing, permutation tests, negative controls), and systemd-based service architecture. The production repo, credentials, and trading journals stay private — this mirror documents the design and shares the reusable validation code.
+Python. Sanitized mirror of a private research and paper-trading platform: multi-API market data ingestion, a statistical validation library (out-of-sample testing, permutation tests, negative controls), and systemd-based service architecture. Account-connected code and trading journals stay private — this mirror documents the design and shares the reusable validation code.
 
 ## Reach me
 
