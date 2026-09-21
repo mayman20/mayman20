@@ -1,16 +1,16 @@
 # Joe May
 
-CS + Data Science senior at the University of Rhode Island, graduating May 2026. Based in Stone Harbor, NJ.
+BS Computer Science, University of Rhode Island (2026), with a minor in Data Science. Based in Stone Harbor, NJ.
 
 ## What I build
 
 Live data systems. Most of what I work on day-to-day lives in private repos. Short version:
 
-**Algorithmic trading platform on GCP.** Pulls real-time market data from multiple feeds, validates it, and trades 24/7. Systemd services, Telegram alerting, runs without intervention. Same architecture drives a Polymarket prediction-market scanner running as a Linux service in Dublin.
+**Research and paper-trading infrastructure.** Work spanning market-data ingestion, out-of-sample splits, permutation tests, negative controls, structured logging, and service monitoring. A public, sanitized mirror of the architecture and validation library is linked below.
 
-**Browser-automation pipeline on Claude Code.** Playwright + Claude subprocess orchestration with LLM scoring, state machines, daily cap enforcement, and Telegram control. Stress test for agent orchestration under real-world failure modes.
+**Browser-automation pipeline on Claude Code.** Playwright + Claude subprocess orchestration with LLM scoring, state machines, daily cap enforcement, and Telegram control. Built as a stress test for agent orchestration under real-world failure modes.
 
-**SQL pipelines at Long Point Resources (Summer 2025 SWE internship).** Financial data across 5,000+ companies using Python, MySQL, and the Tiingo API. Power BI dashboards for the ops team. Reduced data delivery times around 80% through AI tooling.
+**SQL pipelines at Long Point Resources (Summer 2025 SWE internship).** Financial data across 5,000+ companies using Python, MySQL, and the Tiingo API, with Power BI dashboards for the ops team.
 
 ## Stack
 
@@ -19,13 +19,13 @@ Python (pandas, NumPy, FastAPI), SQL (PostgreSQL, MySQL), TypeScript, React, C++
 ## Public projects
 
 ### [captain-mikes-charters](https://github.com/mayman20/captain-mikes-charters)
-React + TypeScript + Vite + Supabase. Booking platform for a working charter fishing business. Real customers, email automation, owner dashboard, double-booking protection, access controls at the database level.
-
-### [spotipy_scripts](https://github.com/mayman20/spotipy_scripts)
-FastAPI + React + PostgreSQL + Spotipy. Spotify automation workspace with OAuth, encrypted token storage in the database, and a web UI for running authenticated playlist workflows.
+React + TypeScript + Vite. Booking site for a working charter fishing business, built for a real client. [Visit the live site](https://pushinglimitssportfishing.com/). Currently a static site backed by a FishingBooker embed for live availability and payment; an earlier self-hosted booking platform (Supabase, database-level double-booking protection, RLS-scoped access control, automated confirmation emails) is preserved in the repo history for anyone who wants to see that version.
 
 ### [Delivery-Tracker](https://github.com/mayman20/Delivery-Tracker)
-JavaScript + Firebase Auth + Realtime Database. Delivery status tracking with role-based dashboards for drivers and overseers. Built for a small operation.
+JavaScript + Firebase Auth + Realtime Database. Delivery status tracking with role-based dashboards for drivers and dispatchers. [Try the no-account interactive demo](https://mayman20.github.io/Delivery-Tracker/demo.html) with simulated drivers and routes.
+
+### [financial-data-platform](https://github.com/mayman20/financial-data-platform)
+Python. Sanitized mirror of a private research and paper-trading platform: multi-API market data ingestion, a statistical validation library (out-of-sample testing, permutation tests, negative controls), and systemd-based service architecture. Account-connected code and trading journals stay private — this mirror documents the design and shares the reusable validation code.
 
 ## Reach me
 
