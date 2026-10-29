@@ -4,13 +4,15 @@ BS Computer Science, University of Rhode Island (2026), with a minor in Data Sci
 
 ## What I build
 
-Live data systems. Most of what I work on day-to-day lives in private repos. Short version:
+Data systems and web apps. Some of this work lives in private repos. Short version:
 
-**Research and paper-trading infrastructure.** Work spanning market-data ingestion, out-of-sample splits, permutation tests, negative controls, structured logging, and service monitoring. A public, sanitized mirror of the architecture and validation library is linked below.
+**Research and paper-trading work (historical).** Work spanning market-data ingestion, out-of-sample splits, permutation tests, negative controls, structured logging, and service monitoring. A public case study with the architecture notes and validation module is linked below; it is not a currently running service.
+
+**Recent learning: small ML experiments (October 2026).** NumPy text classifiers on public financial text. Sentence sentiment worked reasonably well; predicting later-session open-to-close price moves from headlines did not beat a simple baseline. The full results are in [ml-experiments](https://github.com/mayman20/financial-data-platform/tree/main/ml-experiments).
 
 **Browser-automation pipeline on Claude Code.** Playwright + Claude subprocess orchestration with LLM scoring, state machines, daily cap enforcement, and Telegram control. Built as a stress test for agent orchestration under real-world failure modes.
 
-**SQL pipelines at Long Point Resources (Summer 2025 SWE internship).** Financial data across 5,000+ companies using Python, MySQL, and the Tiingo API, with Power BI dashboards for the ops team.
+**Power BI modeling at Long Point Resources (Summer 2025 SWE internship).** Built a 12-table Power BI model covering about 520 companies on top of an existing MySQL financial warehouse, using SQL, Jupyter, and DAX.
 
 ## Stack
 
@@ -25,7 +27,11 @@ React + TypeScript + Vite. Booking site for a working charter fishing business, 
 JavaScript + Firebase Auth + Realtime Database. Delivery status tracking with role-based dashboards for drivers and dispatchers. [Try the no-account interactive demo](https://mayman20.github.io/Delivery-Tracker/demo.html) with simulated drivers and routes.
 
 ### [financial-data-platform](https://github.com/mayman20/financial-data-platform)
-Python. Sanitized mirror of a private research and paper-trading platform: multi-API market data ingestion, a statistical validation library (out-of-sample testing, permutation tests, negative controls), and systemd-based service architecture. Account-connected code and trading journals stay private — this mirror documents the design and shares the reusable validation code.
+Python. Financial data research case study: architecture notes from historical research and paper-trading work, a statistical validation module (sign-randomization tests, bootstrap distributions, deflated Sharpe, rolling splits) with an offline synthetic example, and sanitized configuration. Not a currently running service; account-connected code and trading journals stay private. Also home to the [ml-experiments](https://github.com/mayman20/financial-data-platform/tree/main/ml-experiments) folder described above.
+
+## AI assistance
+
+I use AI tools, mainly Claude and ChatGPT, as development aids. The financial-data-platform and captain-mikes-charters READMEs note where they were used.
 
 ## Reach me
 
