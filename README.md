@@ -1,38 +1,37 @@
 # Joe May
 
-BS Computer Science, University of Rhode Island (2026), with a minor in Data Science. Based in Stone Harbor, NJ.
+I build data pipelines, backend services and web apps in Python and TypeScript. BS in Computer Science from the University of Rhode Island (May 2026) with a data science minor. Based in Stone Harbor, NJ, and open to remote work or relocating.
 
-## What I build
+## Featured projects
 
-Data systems and web apps. Some of this work lives in private repos. Short version:
+| Project | What it is | Try it |
+|---|---|---|
+| [captain-mikes-charters](https://github.com/mayman20/captain-mikes-charters) | Website for a working charter fishing business, built for a real client. React, TypeScript and Vite, with 51 tests in CI. The earlier self-hosted booking platform is preserved at [`booking-platform-v1`](https://github.com/mayman20/captain-mikes-charters/tree/booking-platform-v1). It used Supabase, database-level double-booking protection and row-level security. | [Live site](https://pushinglimitssportfishing.com/) |
+| [financial-data-platform](https://github.com/mayman20/financial-data-platform) | Installable Python research pipeline. Data is ingested and stored in SQLite, then run through research flows. Statistical validation gates (sign randomization, deflated Sharpe, bootstrap) produce a static report. One command runs it offline, with 85 tests in CI. On synthetic controls it passes 0 of 20 pure-noise runs. | [Demo report](https://mayman20.github.io/demos/financial-data-platform/) |
+| [spotify-playlist-tools](https://github.com/mayman20/spotify-playlist-tools) | Spotify automation scripts plus a FastAPI backend (OAuth, SQLite or Postgres) and a React dashboard. | [UI preview](https://mayman20.github.io/spotify-playlist-tools/) |
+| [Delivery-Tracker](https://github.com/mayman20/Delivery-Tracker) | Driver and dispatcher dashboards on Firebase Auth and Realtime Database. Includes a no-account demo with simulated routes. | [Demo](https://mayman20.github.io/Delivery-Tracker/demo.html) |
 
-**Research and paper-trading work (historical).** Work spanning market-data ingestion, out-of-sample splits, permutation tests, negative controls, structured logging, and service monitoring. A public case study with the architecture notes and validation module is linked below; it is not a currently running service.
+## Open source
 
-**Recent learning: small ML experiments (October 2026).** NumPy text classifiers on public financial text. Sentence sentiment worked reasonably well; predicting later-session open-to-close price moves from headlines did not beat a simple baseline. The full results are in [ml-experiments](https://github.com/mayman20/financial-data-platform/tree/main/ml-experiments).
+- [instaloader #2712](https://github.com/instaloader/instaloader/pull/2712), merged July 2026. Caption mentions after a line break were silently dropped. I traced it to a 2022 regex change, fixed it, and added a regression test.
+- [spotDL #2751](https://github.com/spotDL/spotify-downloader/pull/2751), merged October 2026. Windows playlist paths ending in a backslash produced hidden `.m3u8` files. I fixed the string-literal check and added a regression test.
 
-**Browser-automation pipeline on Claude Code.** Playwright + Claude subprocess orchestration with LLM scoring, state machines, daily cap enforcement, and Telegram control. Built as a stress test for agent orchestration under real-world failure modes.
+## Experience
 
-**Power BI modeling at Long Point Resources (Summer 2025 SWE internship).** Built a 12-table Power BI model covering about 520 companies on top of an existing MySQL financial warehouse, using SQL, Jupyter, and DAX.
+**Long Point Resources, software engineering intern (summer 2025).** Built a 12-table Power BI model covering about 520 companies on an existing MySQL financial warehouse, using SQL, Jupyter and DAX.
 
 ## Stack
 
-Python (pandas, NumPy, FastAPI), SQL (PostgreSQL, MySQL), TypeScript, React, C++, C#, R. GCP, Linux, systemd, Docker, REST APIs. Playwright for browser automation. Firebase and Supabase on the full-stack side.
+| Area | Tools |
+|---|---|
+| Languages | Python, SQL, TypeScript, C++, C#, R |
+| Python and data | pandas, NumPy, FastAPI, pytest |
+| Databases | PostgreSQL, MySQL, SQLite |
+| Web | React, Vite, Firebase, Supabase |
+| Infrastructure | Linux, systemd, GCP, Docker, GitHub Actions |
 
-## Public projects
+---
 
-### [captain-mikes-charters](https://github.com/mayman20/captain-mikes-charters)
-React + TypeScript + Vite. Booking site for a working charter fishing business, built for a real client. [Visit the live site](https://pushinglimitssportfishing.com/). Currently a static site backed by a FishingBooker embed for live availability and payment; an earlier self-hosted booking platform (Supabase, database-level double-booking protection, RLS-scoped access control, automated confirmation emails) is preserved in the repo history for anyone who wants to see that version.
+[mayman20.github.io](https://mayman20.github.io) · [LinkedIn](https://linkedin.com/in/joe-may-499a40369) · jmayman2002@gmail.com
 
-### [Delivery-Tracker](https://github.com/mayman20/Delivery-Tracker)
-JavaScript + Firebase Auth + Realtime Database. Delivery status tracking with role-based dashboards for drivers and dispatchers. [Try the no-account interactive demo](https://mayman20.github.io/Delivery-Tracker/demo.html) with simulated drivers and routes.
-
-### [financial-data-platform](https://github.com/mayman20/financial-data-platform)
-Python. Financial data research case study: architecture notes from historical research and paper-trading work, a statistical validation module (sign-randomization tests, bootstrap distributions, deflated Sharpe, rolling splits) with an offline synthetic example, and sanitized configuration. Not a currently running service; account-connected code and trading journals stay private. Also home to the [ml-experiments](https://github.com/mayman20/financial-data-platform/tree/main/ml-experiments) folder described above.
-
-## AI assistance
-
-I use AI tools, mainly Claude and ChatGPT, as development aids. The financial-data-platform and captain-mikes-charters READMEs note where they were used.
-
-## Reach me
-
-jmayman2002@gmail.com  ·  [LinkedIn](https://linkedin.com/in/joe-may-499a40369)  ·  [mayman20.github.io](https://mayman20.github.io)
+I use AI coding tools (Claude and ChatGPT) as development aids. Each project's README notes where.
